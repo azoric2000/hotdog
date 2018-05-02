@@ -1,0 +1,30 @@
+{
+  "name": "sassrunner",
+  "version": "1.0.0",
+  "description": "Simple Checkout JS module",
+  "main": "karma.conf.js",
+  "dependencies": {
+    "karma": "^0.13.15",
+    "karma-cli": "^0.1.1",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.6",
+    "karma-junit-reporter": "^0.3.8",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "npm": "^6.0.0",
+    "phantomjs": "^1.9.18"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "karma-html-reporter": "^0.2.7"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://ga-mlsdiscovery@stash/scm/sc/checkout-web-spring.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

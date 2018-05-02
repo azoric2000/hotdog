@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dirty Dogs | Gourmet Hotdogs | Columbus Ohio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="headline">
+      <div class="instagram">
+        <a href="https://www.instagram.com/explore/tags/hotdogs/" target="_blank">
+          <i class="fab fa-instagram"></i> #hotdogs
+        </a>
+      </div>
+
+  </div>
+    <div class="wrapper">
+      <header>
+        <div class="nav">
+          <ul>
+            <a href="#"><li>Menu</li></a>
+            <a href="#"><li>Catering</li></a>
+            <a href="#"><li>About Us</li></a>
+            <a href="#"><li>Contact</li></a>
+          </ul>
+        </div>
+        <img src="img/vectordog.png" alt="dirty dog">
+        <h1>Dirty Dogs serves all-beef, vegan and vegatarian hotdogs.</h1>
+        <button type="button" name="button" onclick="alert('pressing this button does not do anything.')">More Dogs 'n Make Em Hot</button>
+      </header>
+      <article class="gridParent">
+        <div class="gridItem text">
+          <span class="dash"> </span>
+          <h3>Gourmet All Beef Hotdog</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div><div class="gridItem photo beef">
+
+        </div><div class="gridItem photo vegan">
+
+        </div><div class="gridItem text">
+          <span class="dash"> </span>
+          <h3>Vegan Hotdogs</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+        </div><div class="gridItem text">
+          <span class="dash"> </span>
+          <h3>Vegatarian Hotdog</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+        </div><div class="gridItem photo veg">
+
+        </div>
+
+      </article>
+      <footer>
+        <span class="left">&copy; <span id="yr"></span> Dirty Dogs All Rights Reserved</span>
+        <span class="right">247 Marconi Blvd, Columbus OH 43215 | 614.538.0095 | <a href="#">Contact Us</a></span>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<script>
+var d = new Date();
+var n = d.getFullYear();
+document.getElementById('yr').innerHTML= n;
+
+</script>
